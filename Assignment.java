@@ -9,7 +9,7 @@ public class Assignment {
 	public Assignment() {
 		
 	}
-	ArrayList<BigInteger> arrayListSortDesc(ArrayList<BigInteger> arr){
+	ArrayList<BigInteger> SortDesc(ArrayList<BigInteger> arr){
 	Collections.sort(arr,Collections.reverseOrder());
 	return arr;
 	}
